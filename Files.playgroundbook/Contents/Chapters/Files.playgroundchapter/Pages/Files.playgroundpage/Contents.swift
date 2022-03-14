@@ -5,7 +5,7 @@ File Browser for Swift Playgrounds
 import UIKit
 import QuickLook
 import PlaygroundSupport
-
+var Version = 1
 class FBFilesTableViewController : UITableViewController, QLPreviewControllerDataSource
 {
 	var files = Array<String>()
